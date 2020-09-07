@@ -112,7 +112,7 @@ Core *.. BaseParaEnum
 !define DARKBLUE
 !include /home/van/soft/font/style-class.puml
 
-user     [#000000]-> dServer1          : login
+user     [#000000]-> dServer1 : login
 dServer1 [#00FFFF]-> dServer  : getUuid
 dServer  [#00FFFF]-> dServer1 : uuid
 dServer1 [#0000FF]-> dServer  : getQR: uuid
