@@ -1,0 +1,199 @@
+#+title: hyx
+#+STARTUP: overview indent
+#+HTML_HEAD: <link href="/home/van/.doom.d/css/style.css" rel="stylesheet" type="text/css" />
+
+* Framework
+** Class Diagram
+#+BEGIN_SRC plantuml :file ./image/link.svg
+!define DARKBLUE
+!include /home/van/soft/font/style-class.puml
+
+class MsgCenter
+class IMsgHandlerFace
+class LoginController {
+    +loginService
+    +core
+    +void login(String qrPath)
+}
+interface ILoginService
+class Core {
+    + boolean alive
+    + int memberCount
+    + String indexUrl
+    + String userName
+    + String nickName
+    + List<BaseMsg> msgList
+    + List<JSONObject> memberList   // 好友+群聊+公众号+特殊账号
+    + List<JSONObject> contactList  //好友列表
+    + List<JSONObject> groupList    //群列表
+    + Map<String, JSONArray> groupMemeberMap //群成员字典
+    + List<JSONObject> publicUsersList // 公众号
+    + List<JSONObject> specialUsersList //特殊帐号
+    + List<String> groupIdList // 群ID列表
+    + List<String> groupNickNameList // 群NickName列表
+    + Map<String, JSONObject> userInfoMap
+    + Map<String, Object> loginInfo
+    + MyHttpClient myHttpClient
+    + String uuid
+    + boolean useHotReload
+    + String hotReloadDir
+    + int receivingRetryCount
+    + long lastNormalRetcodeTime; // 最后一次收到正常retcode的时间，秒为单位
+    + Map<String, Object> getParamMap() // 从loginInfo 获取请求参数
+}
+class LoginServiceImpl {
+   + Core core
+   + MyHttpClient myHttpClient
+   + String getUuid()
+   + String getQR()
+   + String login()
+}
+class BaseMsg {
+    + int subMsgType;
+    + int voiceLength;
+    + String fileName;
+    + int imgHeight;
+    + String toUserName;
+    + int hasProductId;
+    + int imgStatus;
+    + String url;
+    + int imgWidth;
+    + int forwardFlag;
+    + int status;
+    + String Ticket;
+    + RecommendInfo recommendInfo;
+    + long createTime;
+    + String newMsgId;
+    + String text;
+    + int msgType;
+    + boolean groupMsg;
+    + String msgId;
+    + int statusNotifyCode;
+    + AppInfo appInfo;
+    + int appMsgType;
+    + String Type;
+    + int playLength;
+    + String mediaId;
+    + String content;
+    + String statusNotifyUserName;
+    + String fromUserName;
+    + String oriContent;
+    + String fileSize;
+}
+
+Enum BaseParaEnum {
+}
+
+class MyHttpClient{
+    + CloseableHttpClient httpClient
+    + MyHttpClient instance
+    + CookieStore cookieStore
+    + String getCookie()
+    + MyHttpClient getInstance()
+    + HttpEntity doGet(...)
+    + HttpEntity doPost(...)
+    + HttpEntity doPostFile(...)
+}
+LoginController *.. ILoginService : loginService
+ILoginService <|-- LoginServiceImpl
+LoginServiceImpl *.. Core : core
+LoginServiceImpl *.. MyHttpClient : myHttpClient
+LoginController *.. Core : core
+Core *.. MyHttpClient : myHttpClient
+Core *.. BaseMsg :msgList <
+Core *.. BaseParaEnum
+#+END_SRC
+
+#+RESULTS:
+[[file:./image/link.svg]]
+
+** Sequence Diagram
+#+BEGIN_SRC plantuml :file ./image/logic.svg
+!define DARKBLUE
+!include /home/van/soft/font/style-class.puml
+
+user     [#000000]-> dServer1          : login
+dServer1 [#00FFFF]-> dServer  : getUuid
+dServer  [#00FFFF]-> dServer1 : uuid
+dServer1 [#0000FF]-> dServer  : getQR: uuid
+dServer  [#0000FF]-> dServer1 : getQR: qrcode File byteArray
+dServer1 [#000000]-> user     : display qrcode
+dServer1 [#7233BB]-> dServer  : login check
+user     [#7233BB]-> dServer  : confirm
+dServer1 [#7233BB]-> dServer  : login check
+dServer  [#7233BB]-> dServer1 : login success
+dServer1 [#0C51F0]-> dServer  : handle login process
+dServer  [#0C51F0]-> dServer1 : login need info xml
+#+END_SRC
+
+#+RESULTS:
+[[file:./image/logic.svg]]
+
+** Interface Documentation
+*** getUUid
+- call Direction ：dserver1 -> dserver
+- url GET https://login.weixin.qq.com/jslogin
+- parameter
+ | appid | your wx robot id,fixed Value | wx782c26e4c19acffb         |
+ | fun   | fixed Value                  | new                        |
+ | lang  | language                     | zh_CN                      |
+ | _     | timeStamp                    | System.currentTimeMillis() |
+- return
+  window.QRLogin.code = 200; window.QRLogin.uuid = "och72pb9Bg==";
+  | window.QRLogin.code | state |          200 |
+  | window.QRLogin.uuid | uuid  | och72pb9Bg== |
+#+BEGIN_SRC restclient
+GET https://login.weixin.qq.com/jslogin?appid=wx782c26e4c19acffb&fun=new&lang=zh_CN&_=7788
+#+END_SRC
+
+#+RESULTS:
+#+BEGIN_SRC html
+<!-- GET https://login.weixin.qq.com/jslogin?appid=wx782c26e4c19acffb&fun=new&lang=zh_CN&_=7788 -->
+<!-- HTTP/1.0 302 Moved Temporarily -->
+<!-- Server: squid/3.0.STABLE23 -->
+<!-- Mime-Version: 1.0 -->
+<!-- Date: Mon, 07 Sep 2020 16:53:18 GMT -->
+<!-- Content-Type: text/html -->
+<!-- Content-Length: 0 -->
+<!-- Location: http://192.168.20.80/squid2 -->
+<!-- X-Squid-Error: 403 Access Denied -->
+<!-- X-Cache: MISS from squid104 -->
+<!-- X-Cache-Lookup: NONE from squid104:3239 -->
+<!-- Via: 1.0 squid104 (squid/3.0.STABLE23) -->
+<!-- Proxy-Connection: close -->
+<!-- Request duration: 0.106284s -->
+#+END_SRC
+
+*** getQR
+- call Direction ：dserver1 -> dserver
+- url GET https://login.weixin.qq.com/qrcode/%uuid%
+- parameter
+ | uuid | from previous interface | och72pb9Bg== |
+- return
+  | file | byteArray | .. |
+
+#+BEGIN_SRC restclient
+GET https://login.weixin.qq.com/qrcode/4dKJWJ_tVA==
+#+END_SRC
+
+*** login
+- call Direction ：dserver1 -> dserver
+- url GET https://login.weixin.qq.com/cgi-bin/mmwebwx-bin/login
+- parameter
+ | loginicon | TODO                    | true                               |
+ | uuid      | from previous interface | och72pb9Bg==                       |
+ | tip       | fixed value             | 0                                  |
+ | R         | timeStamp               | System.currentTimeMillis() / 1579L |
+ | _         | timeStamp               | System.currentTimeMillis()         |
+- return
+  | window.QRLogin.code | state       |                                    200 |
+  | window.redirect_uri | originalUrl | https://wx2.qq.com/cgi-bin/mmwebwx-bin |
+  |                     |             |                                        |
+
+*** handle login
+- call Direction ：dserver1 -> dserver
+- url GET https://wx2.qq.com/cgi-bin/mmwebwx-bin  (window.redirect_uri)
+- parameter
+  none
+- return
+  TODO xml info

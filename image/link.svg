@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1317px" preserveAspectRatio="none" style="width:700px;height:1317px;background:#777777;" version="1.1" viewBox="0 0 700 1317" width="700px" zoomAndPan="magnify"><defs><filter height="300%" id="f1lq510zk259bc" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[fc4c4fc87813b4f71b3028b6fb5d29ee]
+class MsgCenter--><rect codeLine="4" fill="#2E2E2E" filter="url(#f1lq510zk259bc)" height="42" id="MsgCenter" style="stroke: #1B1B1B; stroke-width: 1.5;" width="87" x="7" y="26"/><ellipse cx="19" cy="39" fill="#1A66C2" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M19.6406,43.1563 Q18.75,43.1563 17.9922,42.8906 Q17.2344,42.625 16.6875,42.1094 Q16.1563,41.5938 15.8516,40.8125 Q15.5469,40.0313 15.5469,39.0156 Q15.5469,38.0625 15.8359,37.2891 Q16.125,36.5156 16.6719,35.9531 Q17.1875,35.4219 17.9609,35.1328 Q18.7344,34.8438 19.6406,34.8438 Q20.1406,34.8438 20.5469,34.8984 Q20.9531,34.9531 21.2969,35.0469 Q21.6563,35.1563 21.9531,35.2813 Q22.25,35.4063 22.4688,35.5156 L22.4688,37.4531 L22.2344,37.4531 Q22.0781,37.3281 21.8516,37.1484 Q21.625,36.9688 21.3281,36.7969 Q21.0313,36.625 20.6875,36.5078 Q20.3438,36.3906 19.9531,36.3906 Q19.5156,36.3906 19.125,36.5234 Q18.7344,36.6563 18.4063,36.9844 Q18.0938,37.2813 17.8984,37.7891 Q17.7031,38.2969 17.7031,39.0156 Q17.7031,39.7656 17.9141,40.2734 Q18.125,40.7813 18.4375,41.0625 Q18.7656,41.3594 19.1719,41.4844 Q19.5781,41.6094 19.9688,41.6094 Q20.3438,41.6094 20.7109,41.5 Q21.0781,41.3906 21.3906,41.1875 Q21.6563,41.0469 21.8828,40.8672 Q22.1094,40.6875 22.25,40.5625 L22.4688,40.5625 L22.4688,42.4688 Q22.1719,42.6094 21.8984,42.7266 Q21.625,42.8438 21.3125,42.9219 Q20.9219,43.0313 20.5781,43.0938 Q20.2344,43.1563 19.6406,43.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61" x="30" y="43.3748">MsgCenter</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="8" x2="93" y1="52" y2="52"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="8" x2="93" y1="60" y2="60"/><!--MD5=[021dca07fd626430a63450747a279eaf]
+class IMsgHandlerFace--><rect codeLine="5" fill="#2E2E2E" filter="url(#f1lq510zk259bc)" height="42" id="IMsgHandlerFace" style="stroke: #1B1B1B; stroke-width: 1.5;" width="123" x="129" y="26"/><ellipse cx="141" cy="39" fill="#1A66C2" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M141.6406,43.1563 Q140.75,43.1563 139.9922,42.8906 Q139.2344,42.625 138.6875,42.1094 Q138.1563,41.5938 137.8516,40.8125 Q137.5469,40.0313 137.5469,39.0156 Q137.5469,38.0625 137.8359,37.2891 Q138.125,36.5156 138.6719,35.9531 Q139.1875,35.4219 139.9609,35.1328 Q140.7344,34.8438 141.6406,34.8438 Q142.1406,34.8438 142.5469,34.8984 Q142.9531,34.9531 143.2969,35.0469 Q143.6563,35.1563 143.9531,35.2813 Q144.25,35.4063 144.4688,35.5156 L144.4688,37.4531 L144.2344,37.4531 Q144.0781,37.3281 143.8516,37.1484 Q143.625,36.9688 143.3281,36.7969 Q143.0313,36.625 142.6875,36.5078 Q142.3438,36.3906 141.9531,36.3906 Q141.5156,36.3906 141.125,36.5234 Q140.7344,36.6563 140.4063,36.9844 Q140.0938,37.2813 139.8984,37.7891 Q139.7031,38.2969 139.7031,39.0156 Q139.7031,39.7656 139.9141,40.2734 Q140.125,40.7813 140.4375,41.0625 Q140.7656,41.3594 141.1719,41.4844 Q141.5781,41.6094 141.9688,41.6094 Q142.3438,41.6094 142.7109,41.5 Q143.0781,41.3906 143.3906,41.1875 Q143.6563,41.0469 143.8828,40.8672 Q144.1094,40.6875 144.25,40.5625 L144.4688,40.5625 L144.4688,42.4688 Q144.1719,42.6094 143.8984,42.7266 Q143.625,42.8438 143.3125,42.9219 Q142.9219,43.0313 142.5781,43.0938 Q142.2344,43.1563 141.6406,43.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="97" x="152" y="43.3748">IMsgHandlerFace</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="130" x2="251" y1="52" y2="52"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="130" x2="251" y1="60" y2="60"/><!--MD5=[5103e3471bf31fadd75905833dcba617]
+class LoginController--><rect codeLine="6" fill="#2E2E2E" filter="url(#f1lq510zk259bc)" height="80.4141" id="LoginController" style="stroke: #1B1B1B; stroke-width: 1.5;" width="160" x="287.5" y="7"/><ellipse cx="320.65" cy="20" fill="#1A66C2" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M321.2906,24.1563 Q320.4,24.1563 319.6422,23.8906 Q318.8844,23.625 318.3375,23.1094 Q317.8063,22.5938 317.5016,21.8125 Q317.1969,21.0313 317.1969,20.0156 Q317.1969,19.0625 317.4859,18.2891 Q317.775,17.5156 318.3219,16.9531 Q318.8375,16.4219 319.6109,16.1328 Q320.3844,15.8438 321.2906,15.8438 Q321.7906,15.8438 322.1969,15.8984 Q322.6031,15.9531 322.9469,16.0469 Q323.3063,16.1563 323.6031,16.2813 Q323.9,16.4063 324.1188,16.5156 L324.1188,18.4531 L323.8844,18.4531 Q323.7281,18.3281 323.5016,18.1484 Q323.275,17.9688 322.9781,17.7969 Q322.6813,17.625 322.3375,17.5078 Q321.9938,17.3906 321.6031,17.3906 Q321.1656,17.3906 320.775,17.5234 Q320.3844,17.6563 320.0563,17.9844 Q319.7438,18.2813 319.5484,18.7891 Q319.3531,19.2969 319.3531,20.0156 Q319.3531,20.7656 319.5641,21.2734 Q319.775,21.7813 320.0875,22.0625 Q320.4156,22.3594 320.8219,22.4844 Q321.2281,22.6094 321.6188,22.6094 Q321.9938,22.6094 322.3609,22.5 Q322.7281,22.3906 323.0406,22.1875 Q323.3063,22.0469 323.5328,21.8672 Q323.7594,21.6875 323.9,21.5625 L324.1188,21.5625 L324.1188,23.4688 Q323.8219,23.6094 323.5484,23.7266 Q323.275,23.8438 322.9625,23.9219 Q322.5719,24.0313 322.2281,24.0938 Q321.8844,24.1563 321.2906,24.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="87" x="336.35" y="24.3748">LoginController</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="288.5" x2="446.5" y1="33" y2="33"/><ellipse cx="298.5" cy="44" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="69" x="304.5" y="47.2104">loginService</text><ellipse cx="298.5" cy="56.8047" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="25" x="304.5" y="60.0151">core</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="288.5" x2="446.5" y1="66.6094" y2="66.6094"/><ellipse cx="298.5" cy="77.6094" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="137" x="304.5" y="80.8198">void login(String qrPath)</text><!--MD5=[2706c221231d2141013cc26e750d0e04]
+class ILoginService--><rect codeLine="11" fill="#2E2E2E" filter="url(#f1lq510zk259bc)" height="42" id="ILoginService" style="stroke: #1B1B1B; stroke-width: 1.5;" width="103" x="396" y="162"/><ellipse cx="408" cy="175" fill="#B4A7E5" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M410.3438,179 L405.6563,179 L405.6563,177.5781 L406.9688,177.5781 L406.9688,172.4219 L405.6563,172.4219 L405.6563,171 L410.3438,171 L410.3438,172.4219 L409.0313,172.4219 L409.0313,177.5781 L410.3438,177.5781 L410.3438,179 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="419" y="179.3748">ILoginService</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="397" x2="498" y1="188" y2="188"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="397" x2="498" y1="196" y2="196"/><!--MD5=[61a1ff1f2e90e4f5d52417cf735e0e13]
+class Core--><rect codeLine="12" fill="#2E2E2E" filter="url(#f1lq510zk259bc)" height="336.5078" id="Core" style="stroke: #1B1B1B; stroke-width: 1.5;" width="425" x="114" y="460"/><ellipse cx="309" cy="473" fill="#1A66C2" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M309.6406,477.1563 Q308.75,477.1563 307.9922,476.8906 Q307.2344,476.625 306.6875,476.1094 Q306.1563,475.5938 305.8516,474.8125 Q305.5469,474.0313 305.5469,473.0156 Q305.5469,472.0625 305.8359,471.2891 Q306.125,470.5156 306.6719,469.9531 Q307.1875,469.4219 307.9609,469.1328 Q308.7344,468.8438 309.6406,468.8438 Q310.1406,468.8438 310.5469,468.8984 Q310.9531,468.9531 311.2969,469.0469 Q311.6563,469.1563 311.9531,469.2813 Q312.25,469.4063 312.4688,469.5156 L312.4688,471.4531 L312.2344,471.4531 Q312.0781,471.3281 311.8516,471.1484 Q311.625,470.9688 311.3281,470.7969 Q311.0313,470.625 310.6875,470.5078 Q310.3438,470.3906 309.9531,470.3906 Q309.5156,470.3906 309.125,470.5234 Q308.7344,470.6563 308.4063,470.9844 Q308.0938,471.2813 307.8984,471.7891 Q307.7031,472.2969 307.7031,473.0156 Q307.7031,473.7656 307.9141,474.2734 Q308.125,474.7813 308.4375,475.0625 Q308.7656,475.3594 309.1719,475.4844 Q309.5781,475.6094 309.9688,475.6094 Q310.3438,475.6094 310.7109,475.5 Q311.0781,475.3906 311.3906,475.1875 Q311.6563,475.0469 311.8828,474.8672 Q312.1094,474.6875 312.25,474.5625 L312.4688,474.5625 L312.4688,476.4688 Q312.1719,476.6094 311.8984,476.7266 Q311.625,476.8438 311.3125,476.9219 Q310.9219,477.0313 310.5781,477.0938 Q310.2344,477.1563 309.6406,477.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="28" x="325" y="477.3748">Core</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="115" x2="538" y1="486" y2="486"/><ellipse cx="125" cy="497" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="131" y="500.2104">boolean alive</text><ellipse cx="125" cy="509.8047" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="99" x="131" y="513.0151">int memberCount</text><ellipse cx="125" cy="522.6094" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="84" x="131" y="525.8198">String indexUrl</text><ellipse cx="125" cy="535.4141" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="97" x="131" y="538.6245">String userName</text><ellipse cx="125" cy="548.2188" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="93" x="131" y="551.4292">String nickName</text><ellipse cx="125" cy="561.0234" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="139" x="131" y="564.2339">List&lt;BaseMsg&gt; msgList</text><ellipse cx="125" cy="573.8281" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="346" x="131" y="577.0386">List&lt;JSONObject&gt; memberList   // 好友+群聊+公众号+特殊账号</text><ellipse cx="125" cy="586.6328" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="227" x="131" y="589.8433">List&lt;JSONObject&gt; contactList  //好友列表</text><ellipse cx="125" cy="599.4375" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="216" x="131" y="602.6479">List&lt;JSONObject&gt; groupList    //群列表</text><ellipse cx="125" cy="612.2422" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="321" x="131" y="615.4526">Map&lt;String, JSONArray&gt; groupMemeberMap //群成员字典</text><ellipse cx="125" cy="625.0469" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="242" x="131" y="628.2573">List&lt;JSONObject&gt; publicUsersList // 公众号</text><ellipse cx="125" cy="637.8516" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="256" x="131" y="641.062">List&lt;JSONObject&gt; specialUsersList //特殊帐号</text><ellipse cx="125" cy="650.6563" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="199" x="131" y="653.8667">List&lt;String&gt; groupIdList // 群ID列表</text><ellipse cx="125" cy="663.4609" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="290" x="131" y="666.6714">List&lt;String&gt; groupNickNameList // 群NickName列表</text><ellipse cx="125" cy="676.2656" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="221" x="131" y="679.4761">Map&lt;String, JSONObject&gt; userInfoMap</text><ellipse cx="125" cy="689.0703" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="171" x="131" y="692.2808">Map&lt;String, Object&gt; loginInfo</text><ellipse cx="125" cy="701.875" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="146" x="131" y="705.0854">MyHttpClient myHttpClient</text><ellipse cx="125" cy="714.6797" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="62" x="131" y="717.8901">String uuid</text><ellipse cx="125" cy="727.4844" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="127" x="131" y="730.6948">boolean useHotReload</text><ellipse cx="125" cy="740.2891" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="110" x="131" y="743.4995">String hotReloadDir</text><ellipse cx="125" cy="753.0938" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="131" x="131" y="756.3042">int receivingRetryCount</text><ellipse cx="125" cy="765.8984" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="402" x="131" y="769.1089">long lastNormalRetcodeTime; // 最后一次收到正常retcode的时间，秒为单位</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="115" x2="538" y1="775.7031" y2="775.7031"/><ellipse cx="125" cy="786.7031" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="354" x="131" y="789.9136">Map&lt;String, Object&gt; getParamMap() // 从loginInfo 获取请求参数</text><!--MD5=[77542259e3ce5559f2f4b614cb032a0a]
+class LoginServiceImpl--><rect codeLine="37" fill="#2E2E2E" filter="url(#f1lq510zk259bc)" height="106.0234" id="LoginServiceImpl" style="stroke: #1B1B1B; stroke-width: 1.5;" width="169" x="380" y="279"/><ellipse cx="411.8" cy="292" fill="#1A66C2" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M412.4406,296.1563 Q411.55,296.1563 410.7922,295.8906 Q410.0344,295.625 409.4875,295.1094 Q408.9563,294.5938 408.6516,293.8125 Q408.3469,293.0313 408.3469,292.0156 Q408.3469,291.0625 408.6359,290.2891 Q408.925,289.5156 409.4719,288.9531 Q409.9875,288.4219 410.7609,288.1328 Q411.5344,287.8438 412.4406,287.8438 Q412.9406,287.8438 413.3469,287.8984 Q413.7531,287.9531 414.0969,288.0469 Q414.4563,288.1563 414.7531,288.2813 Q415.05,288.4063 415.2688,288.5156 L415.2688,290.4531 L415.0344,290.4531 Q414.8781,290.3281 414.6516,290.1484 Q414.425,289.9688 414.1281,289.7969 Q413.8313,289.625 413.4875,289.5078 Q413.1438,289.3906 412.7531,289.3906 Q412.3156,289.3906 411.925,289.5234 Q411.5344,289.6563 411.2063,289.9844 Q410.8938,290.2813 410.6984,290.7891 Q410.5031,291.2969 410.5031,292.0156 Q410.5031,292.7656 410.7141,293.2734 Q410.925,293.7813 411.2375,294.0625 Q411.5656,294.3594 411.9719,294.4844 Q412.3781,294.6094 412.7688,294.6094 Q413.1438,294.6094 413.5109,294.5 Q413.8781,294.3906 414.1906,294.1875 Q414.4563,294.0469 414.6828,293.8672 Q414.9094,293.6875 415.05,293.5625 L415.2688,293.5625 L415.2688,295.4688 Q414.9719,295.6094 414.6984,295.7266 Q414.425,295.8438 414.1125,295.9219 Q413.7219,296.0313 413.3781,296.0938 Q413.0344,296.1563 412.4406,296.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="99" x="427.2" y="296.3748">LoginServiceImpl</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="381" x2="548" y1="305" y2="305"/><ellipse cx="391" cy="316" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="397" y="319.2104">Core core</text><ellipse cx="391" cy="328.8047" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="146" x="397" y="332.0151">MyHttpClient myHttpClient</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="381" x2="548" y1="338.6094" y2="338.6094"/><ellipse cx="391" cy="349.6094" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="397" y="352.8198">String getUuid()</text><ellipse cx="391" cy="362.4141" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="80" x="397" y="365.6245">String getQR()</text><ellipse cx="391" cy="375.2188" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="73" x="397" y="378.4292">String login()</text><!--MD5=[c7dcd80e180d58141b224d3d41c2ec1e]
+class BaseMsg--><rect codeLine="44" fill="#2E2E2E" filter="url(#f1lq510zk259bc)" height="426.1406" id="BaseMsg" style="stroke: #1B1B1B; stroke-width: 1.5;" width="211" x="48" y="872"/><ellipse cx="125" cy="885" fill="#1A66C2" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M125.6406,889.1563 Q124.75,889.1563 123.9922,888.8906 Q123.2344,888.625 122.6875,888.1094 Q122.1563,887.5938 121.8516,886.8125 Q121.5469,886.0313 121.5469,885.0156 Q121.5469,884.0625 121.8359,883.2891 Q122.125,882.5156 122.6719,881.9531 Q123.1875,881.4219 123.9609,881.1328 Q124.7344,880.8438 125.6406,880.8438 Q126.1406,880.8438 126.5469,880.8984 Q126.9531,880.9531 127.2969,881.0469 Q127.6563,881.1563 127.9531,881.2813 Q128.25,881.4063 128.4688,881.5156 L128.4688,883.4531 L128.2344,883.4531 Q128.0781,883.3281 127.8516,883.1484 Q127.625,882.9688 127.3281,882.7969 Q127.0313,882.625 126.6875,882.5078 Q126.3438,882.3906 125.9531,882.3906 Q125.5156,882.3906 125.125,882.5234 Q124.7344,882.6563 124.4063,882.9844 Q124.0938,883.2813 123.8984,883.7891 Q123.7031,884.2969 123.7031,885.0156 Q123.7031,885.7656 123.9141,886.2734 Q124.125,886.7813 124.4375,887.0625 Q124.7656,887.3594 125.1719,887.4844 Q125.5781,887.6094 125.9688,887.6094 Q126.3438,887.6094 126.7109,887.5 Q127.0781,887.3906 127.3906,887.1875 Q127.6563,887.0469 127.8828,886.8672 Q128.1094,886.6875 128.25,886.5625 L128.4688,886.5625 L128.4688,888.4688 Q128.1719,888.6094 127.8984,888.7266 Q127.625,888.8438 127.3125,888.9219 Q126.9219,889.0313 126.5781,889.0938 Q126.2344,889.1563 125.6406,889.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="50" x="141" y="889.3748">BaseMsg</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="49" x2="258" y1="898" y2="898"/><ellipse cx="59" cy="909" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="93" x="65" y="912.2104">int subMsgType;</text><ellipse cx="59" cy="921.8047" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="65" y="925.0151">int voiceLength;</text><ellipse cx="59" cy="934.6094" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="92" x="65" y="937.8198">String fileName;</text><ellipse cx="59" cy="947.4141" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="65" y="950.6245">int imgHeight;</text><ellipse cx="59" cy="960.2188" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="113" x="65" y="963.4292">String toUserName;</text><ellipse cx="59" cy="973.0234" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="96" x="65" y="976.2339">int hasProductId;</text><ellipse cx="59" cy="985.8281" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="80" x="65" y="989.0386">int imgStatus;</text><ellipse cx="59" cy="998.6328" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="57" x="65" y="1001.8433">String url;</text><ellipse cx="59" cy="1011.4375" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="73" x="65" y="1014.6479">int imgWidth;</text><ellipse cx="59" cy="1024.2422" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="65" y="1027.4526">int forwardFlag;</text><ellipse cx="59" cy="1037.0469" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="65" y="1040.2573">int status;</text><ellipse cx="59" cy="1049.8516" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="65" y="1053.062">String Ticket;</text><ellipse cx="59" cy="1062.6563" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="188" x="65" y="1065.8667">RecommendInfo recommendInfo;</text><ellipse cx="59" cy="1075.4609" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="96" x="65" y="1078.6714">long createTime;</text><ellipse cx="59" cy="1088.2656" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="65" y="1091.4761">String newMsgId;</text><ellipse cx="59" cy="1101.0703" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="63" x="65" y="1104.2808">String text;</text><ellipse cx="59" cy="1113.875" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="65" y="1117.0854">int msgType;</text><ellipse cx="59" cy="1126.6797" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="109" x="65" y="1129.8901">boolean groupMsg;</text><ellipse cx="59" cy="1139.4844" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="65" y="1142.6948">String msgId;</text><ellipse cx="59" cy="1152.2891" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="119" x="65" y="1155.4995">int statusNotifyCode;</text><ellipse cx="59" cy="1165.0938" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="92" x="65" y="1168.3042">AppInfo appInfo;</text><ellipse cx="59" cy="1177.8984" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="93" x="65" y="1181.1089">int appMsgType;</text><ellipse cx="59" cy="1190.7031" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="69" x="65" y="1193.9136">String Type;</text><ellipse cx="59" cy="1203.5078" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="83" x="65" y="1206.7183">int playLength;</text><ellipse cx="59" cy="1216.3125" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="87" x="65" y="1219.5229">String mediaId;</text><ellipse cx="59" cy="1229.1172" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="84" x="65" y="1232.3276">String content;</text><ellipse cx="59" cy="1241.9219" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="170" x="65" y="1245.1323">String statusNotifyUserName;</text><ellipse cx="59" cy="1254.7266" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="129" x="65" y="1257.937">String fromUserName;</text><ellipse cx="59" cy="1267.5313" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="101" x="65" y="1270.7417">String oriContent;</text><ellipse cx="59" cy="1280.3359" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="82" x="65" y="1283.5464">String fileSize;</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="49" x2="258" y1="1290.1406" y2="1290.1406"/><!--MD5=[70e1c0cfc84206e2de85c7d441f64a5c]
+class BaseParaEnum--><rect codeLine="77" fill="#2E2E2E" filter="url(#f1lq510zk259bc)" height="42" id="BaseParaEnum" style="stroke: #1B1B1B; stroke-width: 1.5;" width="112" x="294.5" y="1064"/><ellipse cx="306.5" cy="1077" fill="#EB937F" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M309.3125,1081 L303.5156,1081 L303.5156,1073 L309.3125,1073 L309.3125,1074.5469 L305.5781,1074.5469 L305.5781,1075.9219 L309.0313,1075.9219 L309.0313,1077.4688 L305.5781,1077.4688 L305.5781,1079.4531 L309.3125,1079.4531 L309.3125,1081 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="86" x="317.5" y="1081.3748">BaseParaEnum</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="295.5" x2="405.5" y1="1090" y2="1090"/><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="295.5" x2="405.5" y1="1098" y2="1098"/><!--MD5=[09cf9186061e46c11177a1f1c5356e4f]
+class MyHttpClient--><rect codeLine="80" fill="#2E2E2E" filter="url(#f1lq510zk259bc)" height="144.4375" id="MyHttpClient" style="stroke: #1B1B1B; stroke-width: 1.5;" width="192" x="489.5" y="1013"/><ellipse cx="546" cy="1026" fill="#1A66C2" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M546.6406,1030.1563 Q545.75,1030.1563 544.9922,1029.8906 Q544.2344,1029.625 543.6875,1029.1094 Q543.1563,1028.5938 542.8516,1027.8125 Q542.5469,1027.0313 542.5469,1026.0156 Q542.5469,1025.0625 542.8359,1024.2891 Q543.125,1023.5156 543.6719,1022.9531 Q544.1875,1022.4219 544.9609,1022.1328 Q545.7344,1021.8438 546.6406,1021.8438 Q547.1406,1021.8438 547.5469,1021.8984 Q547.9531,1021.9531 548.2969,1022.0469 Q548.6563,1022.1563 548.9531,1022.2813 Q549.25,1022.4063 549.4688,1022.5156 L549.4688,1024.4531 L549.2344,1024.4531 Q549.0781,1024.3281 548.8516,1024.1484 Q548.625,1023.9688 548.3281,1023.7969 Q548.0313,1023.625 547.6875,1023.5078 Q547.3438,1023.3906 546.9531,1023.3906 Q546.5156,1023.3906 546.125,1023.5234 Q545.7344,1023.6563 545.4063,1023.9844 Q545.0938,1024.2813 544.8984,1024.7891 Q544.7031,1025.2969 544.7031,1026.0156 Q544.7031,1026.7656 544.9141,1027.2734 Q545.125,1027.7813 545.4375,1028.0625 Q545.7656,1028.3594 546.1719,1028.4844 Q546.5781,1028.6094 546.9688,1028.6094 Q547.3438,1028.6094 547.7109,1028.5 Q548.0781,1028.3906 548.3906,1028.1875 Q548.6563,1028.0469 548.8828,1027.8672 Q549.1094,1027.6875 549.25,1027.5625 L549.4688,1027.5625 L549.4688,1029.4688 Q549.1719,1029.6094 548.8984,1029.7266 Q548.625,1029.8438 548.3125,1029.9219 Q547.9219,1030.0313 547.5781,1030.0938 Q547.2344,1030.1563 546.6406,1030.1563 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="72" x="562" y="1030.3748">MyHttpClient</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="490.5" x2="680.5" y1="1039" y2="1039"/><ellipse cx="500.5" cy="1050" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="169" x="506.5" y="1053.2104">CloseableHttpClient httpClient</text><ellipse cx="500.5" cy="1062.8047" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="122" x="506.5" y="1066.0151">MyHttpClient instance</text><ellipse cx="500.5" cy="1075.6094" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="140" x="506.5" y="1078.8198">CookieStore cookieStore</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="490.5" x2="680.5" y1="1085.4141" y2="1085.4141"/><ellipse cx="500.5" cy="1096.4141" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="506.5" y="1099.6245">String getCookie()</text><ellipse cx="500.5" cy="1109.2188" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="148" x="506.5" y="1112.4292">MyHttpClient getInstance()</text><ellipse cx="500.5" cy="1122.0234" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="112" x="506.5" y="1125.2339">HttpEntity doGet(...)</text><ellipse cx="500.5" cy="1134.8281" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="117" x="506.5" y="1138.0386">HttpEntity doPost(...)</text><ellipse cx="500.5" cy="1147.6328" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="136" x="506.5" y="1150.8433">HttpEntity doPostFile(...)</text><!--MD5=[f764295c52d3aecb0a28cd8027c2fd60]
+reverse link LoginController to ILoginService--><path codeLine="90" d="M397.6691,98.2874 C410.6028,120.2748 424.9985,144.7475 434.978,161.7126 " fill="none" id="LoginController-backto-ILoginService" style="stroke: #FFFFFF; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#FFFFFF" points="391.0699,87.0689,390.6643,94.2686,397.1542,97.4121,397.5598,90.2124,391.0699,87.0689" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="70" x="418.5" y="129.0591">loginService</text><!--MD5=[275eab552b1d745d17495a68c7207bd5]
+reverse link ILoginService to LoginServiceImpl--><path codeLine="91" d="M452.1717,223.9463 C454.1106,240.9397 456.3853,260.8773 458.4494,278.9683 " fill="none" id="ILoginService-backto-LoginServiceImpl" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="none" points="445.212,224.6967,449.8996,204.032,459.1218,223.1096,445.212,224.6967" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[1367e6892c1fcf5e6aef4cbe69f55ca2]
+reverse link LoginServiceImpl to Core--><path codeLine="92" d="M434.3422,396.7956 C425.4824,415.8313 415.3554,437.5896 404.9359,459.9764 " fill="none" id="LoginServiceImpl-backto-Core" style="stroke: #FFFFFF; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#FFFFFF" points="439.8284,385.0083,433.6702,388.7601,434.7648,395.8876,440.9231,392.1358,439.8284,385.0083" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="25" x="425.5" y="427.0591">core</text><!--MD5=[edcaf0f81fb6302ce043f113e385b27d]
+reverse link LoginServiceImpl to MyHttpClient--><path codeLine="93" d="M521.0548,395.5226 C535.1913,414.9344 548.5718,437.2099 556.5,460 C622.7939,650.5666 608.1517,893.6352 595.1236,1012.6878 " fill="none" id="LoginServiceImpl-backto-MyHttpClient" style="stroke: #FFFFFF; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#FFFFFF" points="513.1532,385.0478,513.5732,392.2467,520.3798,394.6278,519.9598,387.4289,513.1532,385.0478" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="606.5" y="633.0591">myHttpClient</text><!--MD5=[49f7f6022d4f959cc0597aa48c207b12]
+reverse link LoginController to Core--><path codeLine="94" d="M363.7147,100.6865 C358.0109,181.5835 346.9674,338.2119 338.3858,459.9252 " fill="none" id="LoginController-backto-Core" style="stroke: #FFFFFF; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#FFFFFF" points="364.6495,87.4283,360.2374,93.1321,363.8054,99.3986,368.2175,93.6948,364.6495,87.4283" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="25" x="355.5" y="246.0591">core</text><!--MD5=[e5874727c7b890d0285cebfd46a28c7b]
+reverse link Core to MyHttpClient--><path codeLine="95" d="M428.6756,808.5895 C469.2015,880.0183 513.4678,958.0398 544.6047,1012.9201 " fill="none" id="Core-backto-MyHttpClient" style="stroke: #FFFFFF; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#FFFFFF" points="422.2062,797.1868,421.688,804.3793,428.1278,807.624,428.6461,800.4315,422.2062,797.1868" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="440.5" y="839.0591">myHttpClient</text><!--MD5=[c062e036e7196ce84f64ab692f5c6e23]
+reverse link Core to BaseMsg--><path codeLine="96" d="M257.912,809.4852 C250.1723,829.908 242.2326,850.8587 234.3556,871.644 " fill="none" id="Core-backto-BaseMsg" style="stroke: #FFFFFF; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#FFFFFF" points="262.5727,797.1868,256.7061,801.3799,258.3202,808.4081,264.1869,804.2149,262.5727,797.1868" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#BBBBBB" points="269.5,836,271.5,832,273.5,836,269.5,836" style="stroke: #BBBBBB; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="43" x="251.5" y="850.0591">msgList</text><!--MD5=[9d1cf172d735756704e1f7c4263caad2]
+reverse link Core to BaseParaEnum--><path codeLine="97" d="M336.0599,810.3364 C341.2234,908.5517 347.0164,1018.7381 349.3927,1063.9389 " fill="none" id="Core-backto-BaseParaEnum" style="stroke: #FFFFFF; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#FFFFFF" points="335.3685,797.1868,331.689,803.3885,335.9986,809.1702,339.678,802.9685,335.3685,797.1868" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[1bf6274e5e9306686ec17fb3a94dfd4e]
+@startuml
+!define DARKBLUE
+!include /home/van/soft/font/style-class.puml
+
+class MsgCenter
+class IMsgHandlerFace
+class LoginController {
+    +loginService
+    +core
+    +void login(String qrPath)
+}
+interface ILoginService
+class Core {
+    + boolean alive
+    + int memberCount
+    + String indexUrl
+    + String userName
+    + String nickName
+    + List<BaseMsg> msgList
+    + List<JSONObject> memberList   // 好友+群聊+公众号+特殊账号
+    + List<JSONObject> contactList  //好友列表
+    + List<JSONObject> groupList    //群列表
+    + Map<String, JSONArray> groupMemeberMap //群成员字典
+    + List<JSONObject> publicUsersList // 公众号
+    + List<JSONObject> specialUsersList //特殊帐号
+    + List<String> groupIdList // 群ID列表
+    + List<String> groupNickNameList // 群NickName列表
+    + Map<String, JSONObject> userInfoMap
+    + Map<String, Object> loginInfo
+    + MyHttpClient myHttpClient
+    + String uuid
+    + boolean useHotReload
+    + String hotReloadDir
+    + int receivingRetryCount
+    + long lastNormalRetcodeTime; // 最后一次收到正常retcode的时间，秒为单位
+    + Map<String, Object> getParamMap() // 从loginInfo 获取请求参数
+}
+class LoginServiceImpl {
+   + Core core
+   + MyHttpClient myHttpClient
+   + String getUuid()
+   + String getQR()
+   + String login()
+}
+class BaseMsg {
+    + int subMsgType;
+    + int voiceLength;
+    + String fileName;
+    + int imgHeight;
+    + String toUserName;
+    + int hasProductId;
+    + int imgStatus;
+    + String url;
+    + int imgWidth;
+    + int forwardFlag;
+    + int status;
+    + String Ticket;
+    + RecommendInfo recommendInfo;
+    + long createTime;
+    + String newMsgId;
+    + String text;
+    + int msgType;
+    + boolean groupMsg;
+    + String msgId;
+    + int statusNotifyCode;
+    + AppInfo appInfo;
+    + int appMsgType;
+    + String Type;
+    + int playLength;
+    + String mediaId;
+    + String content;
+    + String statusNotifyUserName;
+    + String fromUserName;
+    + String oriContent;
+    + String fileSize;
+}
+
+Enum BaseParaEnum {
+}
+
+class MyHttpClient{
+    + CloseableHttpClient httpClient
+    + MyHttpClient instance
+    + CookieStore cookieStore
+    + String getCookie()
+    + MyHttpClient getInstance()
+    + HttpEntity doGet(...)
+    + HttpEntity doPost(...)
+    + HttpEntity doPostFile(...)
+}
+LoginController *.. ILoginService : loginService
+ILoginService <|- - LoginServiceImpl
+LoginServiceImpl *.. Core : core
+LoginServiceImpl *.. MyHttpClient : myHttpClient
+LoginController *.. Core : core
+Core *.. MyHttpClient : myHttpClient
+Core *.. BaseMsg :msgList <
+Core *.. BaseParaEnum
+@enduml
+
+@startuml
+
+
+
+skinparam backgroundColor 777
+skinparam stereotypeCBackgroundColor 1a66c2
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor 777
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  attributeFontColor aaa
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor 575757
+  borderColor 767676
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  lifeLineBorderColor 1a66c2
+  lifeLineBackgroundColor 575757
+}
+
+skinparam boundary {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+  startColor 1a66c2
+  endColor 002642
+}
+
+
+skinparam object {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+class MsgCenter
+class IMsgHandlerFace
+class LoginController {
+    +loginService
+    +core
+    +void login(String qrPath)
+}
+interface ILoginService
+class Core {
+    + boolean alive
+    + int memberCount
+    + String indexUrl
+    + String userName
+    + String nickName
+    + List<BaseMsg> msgList
+    + List<JSONObject> memberList   // 好友+群聊+公众号+特殊账号
+    + List<JSONObject> contactList  //好友列表
+    + List<JSONObject> groupList    //群列表
+    + Map<String, JSONArray> groupMemeberMap //群成员字典
+    + List<JSONObject> publicUsersList // 公众号
+    + List<JSONObject> specialUsersList //特殊帐号
+    + List<String> groupIdList // 群ID列表
+    + List<String> groupNickNameList // 群NickName列表
+    + Map<String, JSONObject> userInfoMap
+    + Map<String, Object> loginInfo
+    + MyHttpClient myHttpClient
+    + String uuid
+    + boolean useHotReload
+    + String hotReloadDir
+    + int receivingRetryCount
+    + long lastNormalRetcodeTime; // 最后一次收到正常retcode的时间，秒为单位
+    + Map<String, Object> getParamMap() // 从loginInfo 获取请求参数
+}
+class LoginServiceImpl {
+   + Core core
+   + MyHttpClient myHttpClient
+   + String getUuid()
+   + String getQR()
+   + String login()
+}
+class BaseMsg {
+    + int subMsgType;
+    + int voiceLength;
+    + String fileName;
+    + int imgHeight;
+    + String toUserName;
+    + int hasProductId;
+    + int imgStatus;
+    + String url;
+    + int imgWidth;
+    + int forwardFlag;
+    + int status;
+    + String Ticket;
+    + RecommendInfo recommendInfo;
+    + long createTime;
+    + String newMsgId;
+    + String text;
+    + int msgType;
+    + boolean groupMsg;
+    + String msgId;
+    + int statusNotifyCode;
+    + AppInfo appInfo;
+    + int appMsgType;
+    + String Type;
+    + int playLength;
+    + String mediaId;
+    + String content;
+    + String statusNotifyUserName;
+    + String fromUserName;
+    + String oriContent;
+    + String fileSize;
+}
+
+Enum BaseParaEnum {
+}
+
+class MyHttpClient{
+    + CloseableHttpClient httpClient
+    + MyHttpClient instance
+    + CookieStore cookieStore
+    + String getCookie()
+    + MyHttpClient getInstance()
+    + HttpEntity doGet(...)
+    + HttpEntity doPost(...)
+    + HttpEntity doPostFile(...)
+}
+LoginController *.. ILoginService : loginService
+ILoginService <|- - LoginServiceImpl
+LoginServiceImpl *.. Core : core
+LoginServiceImpl *.. MyHttpClient : myHttpClient
+LoginController *.. Core : core
+Core *.. MyHttpClient : myHttpClient
+Core *.. BaseMsg :msgList <
+Core *.. BaseParaEnum
+@enduml
+
+PlantUML version 1.2020.16(Mon Aug 24 04:20:43 CST 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

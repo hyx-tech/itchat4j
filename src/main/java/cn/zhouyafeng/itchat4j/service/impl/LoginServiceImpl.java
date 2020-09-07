@@ -494,6 +494,7 @@ public class LoginServiceImpl implements ILoginService {
 			}
 			//add by 默非默 2017-08-01 22:28:09
 			//如果登录被禁止时，则登录返回的message内容不为空，下面代码则判断登录内容是否为空，不为空则退出程序
+			//错误信息
 			String msg = getLoginMessage(text);
 			if (!"".equals(msg)){
 				LOG.info(msg);
