@@ -1,0 +1,7 @@
+# TOML format, uncomment line to enable.
+# (optional) command to run, default to nil.
+command = "mvn -q compile -f ~/soft/ideaproject/itchat4j/pom.xml exec:java -Dexec.mainClass='cn.zhouyafeng.itchat4j.nio.test.Niotest'"
+# (optional) verbose name, default to filename.
+# verbose = ""
+# (optional) sleep before command, default to 0.
+# sleep = 0
