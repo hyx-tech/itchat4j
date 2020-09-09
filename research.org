@@ -111,19 +111,26 @@ Core *.. BaseParaEnum
 #+BEGIN_SRC plantuml :file ./image/logic.svg
 !define DARKBLUE
 !include /home/van/soft/font/style-class.puml
+box "user" #gray
+    participant userApp
+    participant user
+end box
 
-user     [#000000]-> dServer1 : login
-dServer1 [#00FFFF]-> dServer  : getUuid
-dServer  [#00FFFF]-> dServer1 : uuid
-dServer1 [#0000FF]-> dServer  : getQR: uuid
-dServer  [#0000FF]-> dServer1 : getQR: qrcode File byteArray
-dServer1 [#000000]-> user     : display qrcode
-dServer1 [#7233BB]-> dServer  : login check
-user     [#7233BB]-> dServer  : confirm
-dServer1 [#7233BB]-> dServer  : login check
-dServer  [#7233BB]-> dServer1 : login success
-dServer1 [#0C51F0]-> dServer  : handle login process
-dServer  [#0C51F0]-> dServer1 : login need info xml
+
+user     [#000000]-> dServerR : login
+dServerR [#00FFFF]-> dServer  : getUuid
+dServer  [#00FFFF]-> dServerR : uuid
+dServerR [#0000FF]-> dServer  : getQR: uuid
+dServer  [#0000FF]-> dServerR : getQR: qrcode File byteArray
+dServerR [#000000]-> user     : display qrcode
+dServerR [#7233BB]-> dServer  : login check
+dServer  [#7233BB]-> dServerR : failure
+dServerR [#7233BB]-> dServer  : login check repeat ...
+userApp  [#000000]-> dServer  : confirm
+dServerR [#7233BB]-> dServer  : login check
+dServer  [#7233BB]-> dServerR : login success
+dServerR [#0C51F0]-> dServer  : handle login process
+dServer  [#0C51F0]-> dServerR : login need info xml
 #+END_SRC
 
 #+RESULTS:
